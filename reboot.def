@@ -1,0 +1,4 @@
+NAME          Reboot WINDOWCOMPAT
+NEWFILES
+DESCRIPTION  'Reboot/2 v1.0, Copyright Ngb Technologies, 1992, All rights reserved.'
+STACKSIZE  4096

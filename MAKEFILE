@@ -1,0 +1,7 @@
+
+reboot.exe: $(*B).def $(*B).obj makefile
+   link /A:4 $(*B),$*,nul,os2,$(*B).def;
+
+reboot.obj:  $(*B).c
+   cl /c /J /AS /W4 /Zi /Ox /G2cs $(*B).c
+
